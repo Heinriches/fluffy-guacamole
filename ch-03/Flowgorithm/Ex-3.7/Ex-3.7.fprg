@@ -4,9 +4,9 @@
         <attribute name="name" value="Ex-3.7"/>
         <attribute name="authors" value="steamuser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-03-11 07:05:58 PM"/>
+        <attribute name="saved" value="2026-03-11 07:11:33 PM"/>
         <attribute name="created" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA2OjQyOjQzIFBNOzI2NjE="/>
-        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjA1OjU4IFBNOzE7Mjc3NQ=="/>
+        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjExOjMzIFBNOzI7Mjc2Ng=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,11 @@
             <comment text="3,7&#13;&#10;Fa&#231;a um programa que pe&#231;a dois n&#250;meros inteiros. Imprima a soma destes dois n&#250;meros na tela."/>
             <declare name="num1" type="Integer" array="False" size=""/>
             <declare name="num2" type="Integer" array="False" size=""/>
-            <output expression="" newline="True"/>
+            <output expression="&quot;Digite o valor do PRIMEIRO n&#250;mero: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite o valor do SEGUNDO n&#250;mero: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;SOMA = &quot; &amp;(num1 + num2)" newline="True"/>
         </body>
     </function>
 </flowgorithm>
