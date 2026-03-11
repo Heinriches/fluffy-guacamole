@@ -4,14 +4,27 @@
         <attribute name="name" value="Ex-3.09"/>
         <attribute name="authors" value="steamuser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-03-11 07:23:27 PM"/>
+        <attribute name="saved" value="2026-03-11 07:43:21 PM"/>
         <attribute name="created" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjIxOjM0IFBNOzI2NTk="/>
-        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjIzOjI3IFBNOzE7Mjc3MQ=="/>
+        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjQzOjIxIFBNOzI7Mjc2OA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text=""/>
+            <comment text="3.9&#13;&#10;Escreva um programa que leia a quantidade de dias, horas, minutos, e segundos do usu&#225;rio. Calcule e exiba o total em segundos."/>
+            <declare name="days" type="Integer" array="False" size=""/>
+            <declare name="hours" type="Integer" array="False" size=""/>
+            <declare name="minutes" type="Integer" array="False" size=""/>
+            <declare name="seconds" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor da quantidade de DIAS a ser convertida para seu equivalente em segundos: &quot;" newline="True"/>
+            <input variable="days"/>
+            <output expression="&quot;Digite o valor da quantidade de HORAS a ser convertida para seu equivalente em segundos: &quot;" newline="True"/>
+            <input variable="hours"/>
+            <output expression="&quot;Digite o valor da quantidade de MINUTOS a ser convertida para seu equivalente em segundos: &quot;" newline="True"/>
+            <input variable="minutes"/>
+            <output expression="&quot;Digite o valor da quantidade de SEGUNDOS a ser considerada: &quot;" newline="True"/>
+            <input variable="seconds"/>
+            <output expression="&quot;TOTAL = &quot; &amp;((days * 86400) + (hours * 3600) + (minutes * 60) + (seconds))" newline="True"/>
         </body>
     </function>
 </flowgorithm>
