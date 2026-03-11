@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex-3.8"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-11 07:20:52 PM"/>
+        <attribute name="created" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjEyOjA4IFBNOzI2NjA="/>
+        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjIwOjUyIFBNOzI7Mjc2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="3.18&#13;&#10;Escreva um programa que leia um valor em metros, e o exiba convertido em mil&#237;metros."/>
+            <declare name="medida" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da medida em metros que dever&#225; ser convertida para seu equivalente em mil&#237;metros: &quot;" newline="True"/>
+            <input variable="medida"/>
+            <output expression="&quot;mm = &quot; &amp;(medida * 1000)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
