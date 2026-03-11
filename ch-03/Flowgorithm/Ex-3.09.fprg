@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex-3.09"/>
+        <attribute name="authors" value="steamuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-11 07:23:27 PM"/>
+        <attribute name="created" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjIxOjM0IFBNOzI2NTk="/>
+        <attribute name="edited" value="c3RlYW11c2VyO01JTkktNDsyMDI2LTAzLTExOzA3OjIzOjI3IFBNOzE7Mjc3MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text=""/>
+        </body>
+    </function>
+</flowgorithm>
