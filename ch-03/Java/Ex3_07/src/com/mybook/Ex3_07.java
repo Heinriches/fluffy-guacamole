@@ -26,10 +26,10 @@ public class Ex3_07
 		System.out.println("Digite o valor do PRIMEIRO número: ");
 		int num1 = sc.nextInt();
 		
-		System.out.println("Digite o valor do SEGUNDO número: ");
+		System.out.print("Digite o valor do SEGUNDO número: ");
 		int num2 = sc.nextInt();
 		
-		System.out.println("SOMA = " + soma(num1, num2));
+		System.out.print("SOMA = " + soma(num1, num2));
 		
 		sc.close();
 	}
