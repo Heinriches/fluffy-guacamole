@@ -10,22 +10,41 @@ package com.mybook;
 
 import java.util.Scanner;
 
+/**
+ * Classe que realiza uma operação matemática básica de soma entre dois números.
+ * 
+ * @autor Fabio H
+ * @version 1.0
+ */
+
 public class Ex3_07
 {
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner (System.in);
-		
-		int num1, num2;
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite o valor do PRIMEIRO número: ");
-		num1 = sc.nextInt();
+		int num1 = sc.nextInt();
 		
-		System.out.println("Digite o valor do SEGUNDO número: ");;
-		num2 = sc.nextInt();
+		System.out.println("Digite o valor do SEGUNDO número: ");
+		int num2 = sc.nextInt();
 		
-		System.out.println("SOMA = " +(num1 + num2));
+		System.out.println("SOMA = " + soma(num1, num2));
 		
 		sc.close();
+	}
+	
+	/**
+	 * Realiza a operação de soma entre dois números.
+	 * 
+	 * @param num1	O primeiro número a ser somado.
+	 * @param num2	O segundo número a ser somado.
+	 * 
+	 * @return		O valor da soma dos dois números.
+	 */
+	
+	static int soma(int num1, int num2)
+	{
+		return (num1 + num2);
 	}
 }
