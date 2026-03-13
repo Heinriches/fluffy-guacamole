@@ -40,7 +40,7 @@ public class Ex3_07
 	 * 
 	 * @return		O valor da soma entre dois números.
 	 */
-	static int soma(int num1, int num2)
+	public static int soma(int num1, int num2)
 	{
 		return (num1 + num2);
 	}
