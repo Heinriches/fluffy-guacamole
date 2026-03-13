@@ -7,14 +7,15 @@
 
 import java.util.Scanner;
 
+
+/**
+ * Realiza uma simples soma matemática entre dois números.
+ * 
+ * @author Fabio H
+ * @version 1.0
+ */
 public class Ex3_07
-{
-	/**
-	 * Classe que realiza uma simples soma matemática entre dois números.
-	 * 
-	 * @author Fabio H
-	 * @version 1.0
-	 */
+{	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
