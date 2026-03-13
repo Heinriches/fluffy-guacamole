@@ -13,7 +13,7 @@ import java.util.Scanner;
 /**
  * Classe que realiza uma operação matemática básica de soma entre dois números.
  * 
- * @autor Fabio H
+ * @author Fabio H
  * @version 1.0
  */
 
@@ -29,7 +29,7 @@ public class Ex3_07
 		System.out.print("Digite o valor do SEGUNDO número: ");
 		int num2 = sc.nextInt();
 		
-		System.out.print("SOMA = " + soma(num1, num2));
+		System.out.println("SOMA = " + soma(num1, num2));
 		
 		sc.close();
 	}
