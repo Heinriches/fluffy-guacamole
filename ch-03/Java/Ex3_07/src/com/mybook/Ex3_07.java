@@ -23,7 +23,7 @@ public class Ex3_07
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite o valor do PRIMEIRO número: ");
+		System.out.print("Digite o valor do PRIMEIRO número: ");
 		int num1 = sc.nextInt();
 		
 		System.out.print("Digite o valor do SEGUNDO número: ");
