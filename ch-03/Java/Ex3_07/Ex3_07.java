@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-class Ex3_07
+public class Ex3_07
 {
 	/**
 	 * Classe que realiza uma simples soma matemática entre dois números.
